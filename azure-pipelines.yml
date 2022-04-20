@@ -36,7 +36,7 @@ steps:
   displayName: 'Write build info'
   workingDirectory: $(wwwrootDir)
   
-  -task: NuGetCommand@2
+- task: NuGetCommand@2
   displayName: 'Restore project dependencies'
   inputs: 
   command: 'restore'
